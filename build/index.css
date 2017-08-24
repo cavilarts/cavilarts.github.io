@@ -1,0 +1,41 @@
+body {
+	background: #F1E4E8;
+	font-family: 'Roboto', sans-serif;
+}
+
+article {
+	text-align: center;
+}
+
+.quote {
+	font-size: 40px;
+	color: #2D2D34;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.quote::before {
+	content: "\e977";
+	color: #D6B028;
+	font-family: 'icomoon';
+	font-size: 20px;
+	vertical-align: top;
+	padding: 0 10px
+}
+
+.quote::after {
+	content: "\e978";
+	color: #D6B028;
+	font-family: 'icomoon';
+	font-size: 20px;
+	vertical-align: top;
+	padding: 0 10px
+}
+
+.another-cta {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 30px;
+	color: #B97375;
+}
